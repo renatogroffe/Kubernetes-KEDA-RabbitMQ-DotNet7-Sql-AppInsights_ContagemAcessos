@@ -7,7 +7,7 @@ Worker Service para consumo de **mensagens vinculadas a uma fila do RabbitMQ** (
 
 **https://github.com/renatogroffe/DotNet7-WorkerService-RabbitMQ-SqlServer-AppInsights_ContagemAcessos**
 
-Projeto que serviu de base para o **envio de mensagens a uma fila do RabbitMQ** (imagem **  renatogroffe/apicontagem-rabbitmq-appinsights-dotnet7**):
+Projeto que serviu de base para o **envio de mensagens a uma fila do RabbitMQ** (imagem **renatogroffe/apicontagem-rabbitmq-appinsights-dotnet7**):
 
 **https://github.com/renatogroffe/ASPNETCore7-REST_API-AppInsights-RabbitMQ_ContagemAcessos**
 
