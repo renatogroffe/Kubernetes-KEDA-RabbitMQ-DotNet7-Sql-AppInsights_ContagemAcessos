@@ -1,13 +1,15 @@
 # Kubernetes-KEDA-RabbitMQ-DotNet6_ContagemAcessos
-Objetos para Deployment de um Worker Service (contagem de acessos) no Kubernetes utilizando KEDA, Helm, RabbitMQ e .NET 6
+Objetos para Deployment de um Worker Service (contagem de acessos) no Kubernetes utilizando KEDA, Helm, RabbitMQ, SQL Server, Application Insights e .NET 7.
 
-Worker Service para consumo de **mensagens vinculadas a uma fila do RabbitMQ** (imagem **renatogroffe/workercontagem-rabbitmq-dotnet6**) - é justamente esta aplicação que será escalada via **KEDA**:
+---
 
-**https://github.com/renatogroffe/DotNet6-WorkerService-RabbitMQ-SqlServer_ContagemAcessos**
+Worker Service para consumo de **mensagens vinculadas a uma fila do RabbitMQ** (imagem **renatogroffe/workercontagem-rabbitmq-sql-appinsights-dotnet7**) - é justamente esta aplicação que será escalada via **KEDA**:
 
-Projeto que serviu de base para o **envio de mensagens a uma fila do RabbitMQ** (imagem **renatogroffe/apicontagem-rabbitmq-dotnet6**):
+**https://github.com/renatogroffe/DotNet7-WorkerService-RabbitMQ-SqlServer-AppInsights_ContagemAcessos**
 
-**https://github.com/renatogroffe/ASPNETCore6-REST_API-RabbitMQ_ContagemAcessos**
+Projeto que serviu de base para o **envio de mensagens a uma fila do RabbitMQ** (imagem **  renatogroffe/apicontagem-rabbitmq-appinsights-dotnet7**):
+
+**https://github.com/renatogroffe/ASPNETCore7-REST_API-AppInsights-RabbitMQ_ContagemAcessos**
 
 No arquivo **keda-instalacao&sdot;sh** estão as instruções para instalação do KEDA **(Kubernetes Event-driven Autoscaling)** em um **cluster Kubernetes**.
 
